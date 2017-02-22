@@ -1,0 +1,15 @@
+{
+  "id": "production",
+  "aws_access_key_id": {
+    "encrypted_data": "gLZzIgrCj5ZJHPHbVEkrTa/bRam+h623ar7n50GzCVg=\n",
+    "iv": "z1DcZjxhkFj9frHWxbpgDg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "aws_secret_access_key": {
+    "encrypted_data": "K2tvKot8f9I1kYvH1/DE2+uhsZI03G75dFI50FaBSjs=\n",
+    "iv": "61kwzKxGy3u7xoGy1OJXyw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

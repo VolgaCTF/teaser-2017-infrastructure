@@ -1,0 +1,9 @@
+{
+  "id": "production",
+  "session_secret": {
+    "encrypted_data": "hwf6+wcrWnQU4McdBKVeRu4S9AWXGkORtTwjG5xrlz2l8Ui5IgHHgqohZMTs\nCtRzioqAsdEJJwypwZbR330omg==\n",
+    "iv": "JrrJBppSjSk2v0o5a5/Zew==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

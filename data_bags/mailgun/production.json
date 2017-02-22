@@ -1,0 +1,15 @@
+{
+  "id": "production",
+  "api_key": {
+    "encrypted_data": "LBUl88OmuW7xogt3+iA0UEM1z89fddK9voUqsGcKW84=\n",
+    "iv": "X50f/qS3GMUmdXdV23fl0g==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "domain": {
+    "encrypted_data": "27iqOwOGsp97Zf6c+h8y2iW+qJW2Oex5R5OG3sqxMUg=\n",
+    "iv": "p8s4fIk3muF0R2dBx4T1Xg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

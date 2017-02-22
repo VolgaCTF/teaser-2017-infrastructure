@@ -1,0 +1,47 @@
+{
+  "environment": "production",
+  "run_list": [
+    "recipe[resolver::default]",
+    "recipe[ntp::default]",
+    "recipe[python::default]",
+    "recipe[latest-git::default]",
+    "recipe[dotfiles::default]",
+    "recipe[themis-quals::default]"
+  ],
+  "automatic": {
+    "ipaddress": "charlie.server.volgactf.org"
+  },
+  "build-essential": {
+    "compile_time": true
+  },
+  "dotfiles": {
+    "users": [
+      "root",
+      "volgactf"
+    ]
+  },
+  "themis-quals": {
+    "user": "volgactf",
+    "group": "volgactf",
+    "customizers": {
+      "teaser-2017-volgactf": {
+        "github_repository": "VolgaCTF/teaser-2017-volgactf-customizer",
+        "revision": "master"
+      }
+    },
+    "processes": {
+      "app": 4,
+      "queue": 4
+    },
+    "config": {
+      "domain": "teaser.2017.volgactf.ru",
+      "secure": true,
+      "customizer": "teaser-2017-volgactf-customizer",
+      "email": {
+        "transport": "sendgrid",
+        "sender_name": "VolgaCTF 2017 Teaser",
+        "sender_address": "info@teaser.2017.volgactf.ru"
+      }
+    }
+  }
+}
